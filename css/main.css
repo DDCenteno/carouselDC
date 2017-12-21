@@ -1,0 +1,39 @@
+* {
+	background-color: #5b5858;
+	text-align: center;
+}
+h1 {
+	font-family: "Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif";
+}
+
+img {
+	width: 100%;
+	border-radius: 10px;
+	border: 10px solid white;
+	height: 300px;
+}
+.boxcontent{
+	margin: 10px auto;
+	width: 45%;
+}
+.carousel-content {
+	display: none;
+}
+.carousel-content.active{
+	display: block;
+}
+.control {
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.previous, .next {
+	color: white;
+	margin-left: 10px 30px;
+}
+.control:hover, .previous:hover, .next:hover{
+	background: #4db6ac;
+	border: 1px solid #4db6ac;
+}
